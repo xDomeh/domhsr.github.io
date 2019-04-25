@@ -37,7 +37,6 @@ nav {
 .nav-links {
 	display: flex;
 	list-style: none;
-	width: 50%;
 	height: 100%;
 	justify-content: space-around;
 	align-items: center;
@@ -103,7 +102,39 @@ nav {
 }
 
 .projects {
-	height: 100vh;
+	height: 95vh;
+}
+
+.last {
+	height: 5vh;
+	display: flex;
+	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-around;
+}
+
+.last-text {
+	font-size: 17px;
+	width: 15%;
+	margin-left: auto;
+}
+
+.projects img {
+	position: relative;
+	bottom: 17vh;
+	left: 15%;
+}
+
+.text-projects {
+	width: 35%;
+	margin-left: auto;
+	padding-top: 10%;
+}
+
+.text-projects a {
+	text-decoration: none;
+	color: white;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
